@@ -1,0 +1,72 @@
+﻿@model IEnumerable<FileManager.DBAccess.Entities.User>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<body>
+    <div class="container" dir="rtl">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="table-responsive" data-pattern="priority-columns">
+                    <table class="table table-bordered table-hover">
+                        <thead>
+                            <tr>
+                                <th>
+                                    <h6>نام و نام خانوادگی</h6>
+                                </th>
+                                <th>
+                                    <h6>تاریخ ثبت کاربر</h6>
+                                </th>
+                                <th>
+                                    <h6>نام کاربری</h6>
+                                </th>
+                                <th>
+                                    <h6>ایمیل</h6>
+                                </th>
+                                <th>
+                                    <h6>رده</h6>
+                                </th>
+                                <th>
+                                    <h6>
+                                        عملیات
+                                    </h6>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.nameandfamily)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.ReleaseDate)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.username)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Email)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.State)
+                                </td>
+                                <td>
+                                    <a asp-action="Edit" asp-route-id="@item.Id">ویرایش</a> |
+                                    <a asp-action="Details" asp-route-id="@item.Id">مشخصات</a> |
+                                    <a asp-action="Delete" asp-route-id="@item.Id">حذف کاربر</a>
+                                </td>
+                            </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <a asp-action="Create" class="btn btn-primary">کاربر جدید</a>
+    </div>
+</body>

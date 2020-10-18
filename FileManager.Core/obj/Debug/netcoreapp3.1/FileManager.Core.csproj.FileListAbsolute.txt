@@ -1,0 +1,12 @@
+E:\asp.net project\Irisa\FileManager\FileManager.Core\bin\Debug\netcoreapp3.1\FileManager.Core.deps.json
+E:\asp.net project\Irisa\FileManager\FileManager.Core\bin\Debug\netcoreapp3.1\FileManager.Core.dll
+E:\asp.net project\Irisa\FileManager\FileManager.Core\bin\Debug\netcoreapp3.1\FileManager.Core.pdb
+E:\asp.net project\Irisa\FileManager\FileManager.Core\obj\Debug\netcoreapp3.1\FileManager.Core.csprojAssemblyReference.cache
+E:\asp.net project\Irisa\FileManager\FileManager.Core\obj\Debug\netcoreapp3.1\FileManager.Core.AssemblyInfoInputs.cache
+E:\asp.net project\Irisa\FileManager\FileManager.Core\obj\Debug\netcoreapp3.1\FileManager.Core.AssemblyInfo.cs
+E:\asp.net project\Irisa\FileManager\FileManager.Core\obj\Debug\netcoreapp3.1\FileManager.Core.csproj.CoreCompileInputs.cache
+E:\asp.net project\Irisa\FileManager\FileManager.Core\obj\Debug\netcoreapp3.1\FileManager.Core.dll
+E:\asp.net project\Irisa\FileManager\FileManager.Core\obj\Debug\netcoreapp3.1\FileManager.Core.pdb
+E:\asp.net project\Irisa\FileManager\FileManager.Core\bin\Debug\netcoreapp3.1\FileManager.DBAccess.dll
+E:\asp.net project\Irisa\FileManager\FileManager.Core\bin\Debug\netcoreapp3.1\FileManager.DBAccess.pdb
+E:\asp.net project\Irisa\FileManager\FileManager.Core\obj\Debug\netcoreapp3.1\FileManager.Core.csproj.CopyComplete

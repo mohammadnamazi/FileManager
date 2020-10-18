@@ -1,0 +1,9 @@
+E:\asp.net project\Irisa\FileManager\FileManager.DBAccess\bin\Debug\netcoreapp3.1\FileManager.DBAccess.deps.json
+E:\asp.net project\Irisa\FileManager\FileManager.DBAccess\bin\Debug\netcoreapp3.1\FileManager.DBAccess.dll
+E:\asp.net project\Irisa\FileManager\FileManager.DBAccess\obj\Debug\netcoreapp3.1\FileManager.DBAccess.AssemblyInfoInputs.cache
+E:\asp.net project\Irisa\FileManager\FileManager.DBAccess\obj\Debug\netcoreapp3.1\FileManager.DBAccess.AssemblyInfo.cs
+E:\asp.net project\Irisa\FileManager\FileManager.DBAccess\obj\Debug\netcoreapp3.1\FileManager.DBAccess.csproj.CoreCompileInputs.cache
+E:\asp.net project\Irisa\FileManager\FileManager.DBAccess\bin\Debug\netcoreapp3.1\FileManager.DBAccess.pdb
+E:\asp.net project\Irisa\FileManager\FileManager.DBAccess\obj\Debug\netcoreapp3.1\FileManager.DBAccess.dll
+E:\asp.net project\Irisa\FileManager\FileManager.DBAccess\obj\Debug\netcoreapp3.1\FileManager.DBAccess.pdb
+E:\asp.net project\Irisa\FileManager\FileManager.DBAccess\obj\Debug\netcoreapp3.1\FileManager.DBAccess.csprojAssemblyReference.cache

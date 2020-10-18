@@ -1,0 +1,48 @@
+﻿@model FileManager.DBAccess.Entities.User
+
+@{
+    ViewData["Title"] = "مشخصات کاربر";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>مشخصات</h1>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            رده
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.State)
+        </dd>
+        <dt class = "col-sm-2">
+            نام و نام خانوادگی
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.nameandfamily)
+        </dd>
+        <dt class = "col-sm-2">
+            تاریخ ثبت
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ReleaseDate)
+        </dd>
+        <dt class = "col-sm-2">
+           نام کاربری
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.username)
+        </dd>
+        <dt class = "col-sm-2">
+            ایمیل
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">ویرایش کاربر</a> |
+    <a asp-action="Index">بازگشت به لیست</a>
+</div>
